@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+}
+
+/* Контейнер */
+.container {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+/* Заголовок */
+header {
+    border: 2px dashed #aaa;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header h3 {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Дві колонки */
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.left {
+    width: 30%;
+    border-right: 2px solid #000;
+    padding-right: 15px;
+}
+
+.right {
+    width: 70%;
+    padding-left: 15px;
+}
+
+/* Секції */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+/* Список */
+ul {
+    padding-left: 20px;
+}
+
+/* Форма */
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
